@@ -12,7 +12,8 @@ public class MenuController {
     private static final Map<Integer, PopulateMenuOption> menuOptions = new LinkedHashMap<>();
     static {
         menuOptions.put(1, new PopulateMenuOption("Password Generator", new PasswordController()));
-        menuOptions.put(2, new PopulateMenuOption("Exit Program", new ExitController()));
+        menuOptions.put(2, new PopulateMenuOption("FizzBuzz", new FizzBuzzController()));
+        menuOptions.put(3, new PopulateMenuOption("Exit Program", new ExitController()));
     }
 
     private static void outputMenuOptions() {

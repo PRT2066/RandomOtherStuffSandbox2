@@ -1,7 +1,5 @@
 package Controllers;
 
-import Utilities.PasswordUtil;
-
 public class ExitController implements BaseController {
 
     @Override
